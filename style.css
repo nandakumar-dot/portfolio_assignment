@@ -237,6 +237,11 @@ button:hover {
     background-color: #ff7e4b;
 }
 
+#response {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
 /* Social Links */
 .social-links a {
     color: #46e9ff;

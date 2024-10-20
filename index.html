@@ -89,16 +89,18 @@
     <p>If you'd like to collaborate or learn more, feel free to reach out!</p>
     <form id="contactForm">
       <label for="name">Name</label>
-      <input type="text" id="name" required>
+      <input type="text" name="username" id="name" required>
 
       <label for="email">Email</label>
-      <input type="email" id="email" required>
+      <input type="email" name="email" id="email" required>
 
       <label for="message">Message</label>
-      <textarea id="message" rows="5" required></textarea>
+      <textarea id="message" name="message" rows="5" required></textarea>
 
       <button type="submit">Send</button>
       <br>
+      <div id="response"></div>
+
       
     </form>
     <div class="social-links">
