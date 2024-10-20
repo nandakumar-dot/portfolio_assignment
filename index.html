@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Nandakumar's Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#about-me">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero-section">
+    <div class="hero-content">
+      <img src="src/profile.jpeg" alt="Your Photo" class="hero-photo">
+      <h1>Hello, I'm Nandakumar.</h1>
+      <p>AI & Backend Engineer</p>
+      <br>
+      <a href="#projects" class="cta-button">View Projects</a>
+    </div>
+  </section>
+
+  <section id="about-me" class="section about-me">
+    <div class="container">
+      <h1>About Me</h1>
+      <p>Welcome to my portfolio! I’m <span class="highlight">Nandakumar</span>, a passionate software developer currently pursuing my <span class="highlight">Master’s in Computer Applications (MCA)</span> at <span class="highlight">CUSAT (Cochin University of Science and Technology)</span> in Kochi. With a strong foundation in programming languages like <span class="highlight">Python</span> and <span class="highlight">Java</span>, I am actively expanding my skill set and knowledge in various areas of software development.</p>
+  
+      <p>Throughout my academic journey, I've had the opportunity to work on several impactful projects, one of which was my internship at <span class="highlight">IIIT Kottayam</span>, where I was involved in the <span class="highlight">Keysense project</span>. This experience allowed me to dive deep into developing innovative solutions that leverage <span class="highlight">sensor data</span> and <span class="highlight">machine learning techniques</span>. I believe in the power of technology to solve real-world problems, and I’m committed to making a difference through my work.</p>
+  
+      <p>Thank you for visiting my portfolio. I’m excited to connect and explore new opportunities in the tech world!</p>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-container">
+        <div class="skill-card">
+            <h3>Python</h3>
+        </div>
+        <div class="skill-card">
+            <h3>React</h3>
+        </div>
+        <div class="skill-card">
+            <h3>Neo4j</h3>
+        </div>
+
+        <div class="skill-card">
+            <h3>Flask</h3>
+        </div>
+        <div class="skill-card">
+            <h3>Machine Learning</h3>
+        </div>
+    </div>
+</section>
+
+  
+
+  <section id="projects" class="section">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-grid">
+        <div class="project-card">
+            <h3>KeySense: Android Sensor Data Collection</h3>
+            <p>The Keysense Data Collection App is a tool that captures and analyzes sensor data, leveraging accelerometers and gyroscopes to identify user interactions in real-time.</p>
+            <p><strong>Technologies Used:</strong> Futter</p>
+            <a href="https://github.com/nandakumar-dot/KeySense" class="project-link">View Project</a>
+        </div>
+        
+        <div class="project-card">
+            <h3>CollabConnect</h3>
+            <p>Building a remote collaboration platform with user profile creation and retrieval using Neo4j.This project aims to connect users with the right skills for remote work.</p>
+            <p><strong>Technologies Used:</strong> Python, Neo4j, LangChain, React, Flask</p>
+            <a href="#" class="project-link">View Project</a>
+        </div>
+    </div>
+</section>
+
+
+  <section id="contact" class="section">
+    <h2 class="section-title">Get in Touch</h2>
+    <p>If you'd like to collaborate or learn more, feel free to reach out!</p>
+    <form id="contactForm">
+      <label for="name">Name</label>
+      <input type="text" id="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" rows="5" required></textarea>
+
+      <button type="submit">Send</button>
+      <br>
+      
+    </form>
+    <div class="social-links">
+      <a href="https://github.com/nandakumar-dot">GitHub</a>
+      <a href="https://linkedin.com/in/nandakumardot">LinkedIn</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2024 Nandakumar</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
